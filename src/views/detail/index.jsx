@@ -14,7 +14,7 @@ const Detail = memo(() => {
   const dispatch = useDispatch()
   useEffect(() => {
     dispatch(changeIsFixedAction(false))
-  }, [])
+  }, [dispatch])
 
   return (
     <DetailWrapper>
