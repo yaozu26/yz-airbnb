@@ -1,0 +1,1 @@
+export const CHANGE_IS_FIXED = "change_isFixed"
